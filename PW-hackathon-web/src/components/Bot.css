@@ -42,6 +42,7 @@ a {
   position: fixed;
   top: 0;
   overflow-y: scroll;
+  scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
 }
 .top::-webkit-scrollbar-track {
